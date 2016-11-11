@@ -1,0 +1,28 @@
+.search-box input
+{
+  padding: 7px;  
+}
+
+
+.search-box  .fa-search
+{
+    margin-left: -25px;
+}
+.estrenos img{
+    width: 100%;
+}
+
+.hero .banner{
+    background: #333 url(../img/banner.jpg) no-repeat;
+    background-size: contain;
+}
+
+
+ .cartelera img
+{
+    width:  100%;
+}
+.movie-info{
+    padding-top: 20px;
+    padding-bottom:20px; 
+}
