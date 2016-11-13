@@ -8,21 +8,93 @@
 {
     margin-left: -25px;
 }
+
 .estrenos img{
     width: 100%;
-}
+     padding: 25px 0 25px 0;
+     height: 250px;
+ }
 
-.hero .banner{
+.hero .banner {
     background: #333 url(../img/banner.jpg) no-repeat;
     background-size: contain;
 }
+.hero .banner  img {
+	position: relative;
+	bottom: -165px;
+	left: 195px;
+	height: 50px;
+	width:50px;}
+	
+
+}
 
 
- .cartelera img
+}
+
+
+ .cartelera  img
 {
     width:  100%;
+
+
 }
-.movie-info{
+.movie-info {
     padding-top: 20px;
     padding-bottom:20px; 
 }
+.info span {
+	border: 2px solid #048327;
+	border-radius: 10%;
+	padding: 3px;
+	color: #048327;
+
+}
+.info button  {
+	border-radius: 10%;
+	color: white;
+	width: 180px;
+	height: 30px;
+	margin-left: -30px;
+	margin-top: :10px; 
+	margin-bottom: 10px;
+	background: #F1C600;
+	font-size: 15px;
+	text-transform: uppercase;
+}
+.info .fa {
+	color: white;
+	position: relative;
+}
+
+.estrenos .container {
+
+background: #F1C600;
+}
+
+.contenido .container .ll h4 {
+	color: #D8CEC8;
+	font-family: Helvetica sans-serif;
+}
+
+.contenido  button {
+	border-radius: 10%;
+	color: white;
+	width: 180px;
+	height: 30px;
+	margin-left: -30px;
+	margin-top: :10px; 
+	margin-bottom: 10px;
+	background: #9B6E08;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding: 20px 0 20px 0;
+
+
+}
+.contenido .container .fa {
+	color: white;
+	position: relative;
+}
+}
+
