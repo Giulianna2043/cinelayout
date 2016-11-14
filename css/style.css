@@ -11,32 +11,45 @@
 
 .estrenos img{
     width: 100%;
-     padding: 25px 0 25px 0;
+     padding-bottom: 30px;
+    padding-top: 30px;
      height: 250px;
  }
 
 .hero .banner {
     background: #333 url(../img/banner.jpg) no-repeat;
     background-size: contain;
+    height: 550px;
 }
 .hero .banner  img {
 	position: relative;
-	bottom: -165px;
-	left: 195px;
+	bottom: -270px;
+	left: 295px;
 	height: 50px;
 	width:50px;}
 	
 
+.cartelera  {
+    width: 100%;  
+}
+.cartelera .container{
+    width: 100%;    
+}
+.cartelera .container{
+    margin: 0 70px;
+}
+.cartelera .container .col-3 img{
+    width: 20p%;
+    height: 20%;
 }
 
-
-}
 
 
  .cartelera  img
 {
     width:  100%;
-
+    height: 200px;
+    
 
 }
 .movie-info {
@@ -48,6 +61,7 @@
 	border-radius: 10%;
 	padding: 3px;
 	color: #048327;
+    font-size: 25px;
 
 }
 .info button  {
@@ -67,9 +81,13 @@
 	position: relative;
 }
 
+
 .estrenos .container {
 
 background: #F1C600;
+      width:1200px;
+    padding-left: 210px;
+    padding-right: 210px;
 }
 
 .contenido .container .ll h4 {
@@ -96,5 +114,49 @@ background: #F1C600;
 	color: white;
 	position: relative;
 }
+.hero .info{
+color: white;
+    font-size: 20px;
+    
 }
+.hero .info h1{
+    color: gainsboro;
+    font-size: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+span ,h3 li{
+	color: gray;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+footer .container p,h4 {
+	color:black;
+    font-size: 10px;
+    text-decoration: none;
+    
+	
+}
+spam, p{
+    color: darkgray;
+    font-size: 14px;
+}
+footer .container ,h5 {
+	color:brown;
+    font-size: 13px;
+  
+}
+footer .container  {
+background:gainsboro;
+    }
+
+
+
+
+
+
+
 
